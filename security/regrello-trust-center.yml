@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.regrello.com/security
+url: https://www.regrello.com/security
+certifications:
+- SOC 2 Type 2
+- HIPAA
+- FedRAMP
+- FIPS 140-2
+- NIST 800-53
+compliance_contact: compliance@regrello.com
+evidence:
+- source: https://www.regrello.com/security
+  keywords:
+  - soc 2
+  - hipaa
+  - fedramp

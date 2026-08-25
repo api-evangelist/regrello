@@ -12,13 +12,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regrello.png
 name: Regrello
-description: Regrello is an AI operating system for manufacturing and supply chain operations, giving
-  teams that are stuck in email and stifled by decades-old ERPs an agentic AI platform to accelerate
-  innovation and productivity. Its product, Agentforce Operations, orchestrates enterprise manufacturing
-  and supply chain workflows with generative AI. Regrello was acquired by Salesforce and is backed by
-  a16z and Bloomberg Beta. This profile currently exposes no public API, developer portal, or
-  documentation surface; it is tracked in the API Evangelist network for its identity, security posture,
-  and published compliance program.
+description: Regrello is an AI operating system for manufacturing and supply chain operations, giving teams that
+  are stuck in email and stifled by decades-old ERPs an agentic AI platform to accelerate innovation and productivity.
+  Its product, Agentforce Operations, orchestrates enterprise manufacturing and supply chain workflows with generative
+  AI. Regrello was acquired by Salesforce and is backed by a16z and Bloomberg Beta. This profile currently exposes
+  no public API, developer portal, or documentation surface; it is tracked in the API Evangelist network for its
+  identity, security posture, and published compliance program.
 url: https://raw.githubusercontent.com/api-evangelist/regrello/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -29,7 +28,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-08-21'
 tags:
 - Company
 - Manufacturing
@@ -53,6 +52,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/salesforce/
+  name: Salesforce
+  x-relationship: acquisition
+  x-generated-by: salesforce-family:2026-08-21
 - type: TrustCenter
   url: security/regrello-trust-center.yml
 - type: Compliance
@@ -78,3 +82,5 @@ x-enrichment:
   status: enriched
   artifacts_added: 3
   pass: local-v1
+x-parent: salesforce
+x-relationship: acquisition
